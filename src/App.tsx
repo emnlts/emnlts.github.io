@@ -275,7 +275,7 @@ function App() {
                             <React.Fragment>
                                 <Title>Wallets input</Title>
                                 <Grid container xs={12} md={12} lg={12}>
-                                    <Grid item xs={2} md={2} lg={2}>Set wallets</Grid>
+                                    <Grid item xs={2} md={2} lg={2}>Set wallets, an address per line</Grid>
                                     <Grid item xs={10} md={10} lg={10} sx={{pl:1}}>
                                         <TextField id="wallets"
                                                    fullWidth
