@@ -228,7 +228,7 @@ function App() {
                                 <Title>Configuration</Title>
                                 <Grid container xs={12} md={12} lg={12}>
                                     <Grid item xs={2} md={2} lg={2}>Select a common website</Grid>
-                                    <Grid item xs={10} md={10} lg={10}>
+                                    <Grid item xs={10} md={10} lg={10} sx={{pl:2}}>
                                         <Select
                                             labelId="demo-simple-select-label"
                                             id="demo-simple-select"
@@ -251,7 +251,7 @@ function App() {
                                 <Grid container xs={12} md={12} lg={12} sx={{mt:3}}>
                                     <Grid item xs={2} md={2} lg={2}>Define the pattern (<i>&#x3C;address&#x3E;</i> must
                                         be present)</Grid>
-                                    <Grid item xs={10} md={10} lg={10}>
+                                    <Grid item xs={10} md={10} lg={10} sx={{pl:2}}>
                                         <TextField id="signature"
                                                    fullWidth
                                                    label="Customize the endpoint pattern (optional)"
@@ -276,7 +276,7 @@ function App() {
                                 <Title>Wallets input</Title>
                                 <Grid container xs={12} md={12} lg={12}>
                                     <Grid item xs={2} md={2} lg={2}>Set wallets</Grid>
-                                    <Grid item xs={10} md={10} lg={10}>
+                                    <Grid item xs={10} md={10} lg={10} sx={{pl:1}}>
                                         <TextField id="wallets"
                                                    fullWidth
                                                    multiline
