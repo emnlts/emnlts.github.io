@@ -23,11 +23,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && rm -rf docs && mv build docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "gh-deploy": "git push origin :gh-pages && git subtree push --prefix build origin gh-pages",
-    "gh-deploy-init": "git push origin && git subtree push --prefix build origin gh-pages"
   },
   "browserslist": {
     "production": [
