@@ -19,7 +19,7 @@ export const mainListItems = (
 export const secondaryListItems = (
     <React.Fragment>
         <ListSubheader component="div" inset>
-            v0.1.0 @ 27/12/2023
+            v0.1.1 @ 27/12/2023
         </ListSubheader>
     </React.Fragment>
 );
